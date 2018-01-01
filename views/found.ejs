@@ -1,3 +1,5 @@
+<%include partials/header%>
+
 <h1>You found: <%=passedThing%></h1>
 
 <%if(passedThing.toLowerCase() === "sophie") { %>
@@ -5,3 +7,4 @@
 <% } else {%>
 	<p>Bad Choice, sophie is the best</p>
 <% } %>
+<%include partials/footer%>
